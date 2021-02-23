@@ -80,6 +80,7 @@ button:hover {
 header {
     line-height: 24px;
     font-size: 13px;
+    margin-top: 7px;
 }
 
 header ul {
@@ -134,7 +135,7 @@ svg:hover {
     box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
 }
 
-li a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -148,9 +149,10 @@ header li {
 }
 
 footer {
+    position: absolute;
+    width: 100%;
+    bottom:0;
     background: #f2f2f2;
-    margin-top: 315px;
-    height: 92px;
 }
 
 .country {
@@ -161,40 +163,71 @@ footer {
 }
 
 .info {
-    display: block;
-    margin-left: -37px;
+    display: flex;
+    justify-content: space-between;
     color: rgba(0,0,0,.54);
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0;
+    padding: 0 20px;
 }
 
 footer ul {
     overflow: hidden;
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 footer li {
     float: left;
+    padding:15px;
+    display: block;
     white-space: nowrap;
-    padding-left: 30px;
+}
+
+#leaf {
+    height: 14px;
+    margin-right: 6px;
+}
+
+#carbon-text {
+    display: inline;
+    margin: 0;
+    vertical-align: top;
+}
+
+.carbon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 0;
+    width: 100%;
 }
 
 .carbon {
-    margin-top: 7px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
 }
 
-.right {
-    margin-left: 750px;
-}
-
-footer li a {
+footer a {
     text-decoration: none;
     color: rgba(0,0,0,.54);
     display: block;
     white-space: nowrap;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+    flex-wrap: wrap;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+    flex-wrap: wrap;
 }
