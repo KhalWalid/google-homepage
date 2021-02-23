@@ -198,9 +198,8 @@ footer li {
 .carbon-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    order: 0;
-    width: 100%;
+    justify-content: space-between;
+    order: 2;
 }
 
 .carbon {
