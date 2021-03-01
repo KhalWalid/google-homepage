@@ -10,4 +10,4 @@ First project of the TOP curriculum.
 
 ## Live demo
 
-[Live demo](https://khalwalid.github.io/google-homepage/) here
+[Live demo](https://khalwalid.github.io/google-homepage/) 👈
