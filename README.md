@@ -7,7 +7,6 @@ First project of the TOP curriculum.
 
 - HTML
 - CSS
-- Javascript
 
 ## Live demo
 
